@@ -262,7 +262,7 @@ After resolving Auto Scaling and health check issues:
 
 ## 👨‍💻 Author ##
 
-Ashok Kumar
+Ashokkumar
 
 Cloud & AWS Enthusiast
 
