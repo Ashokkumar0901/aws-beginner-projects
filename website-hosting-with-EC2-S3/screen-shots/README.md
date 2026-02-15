@@ -241,6 +241,25 @@ Instances were running but not serving HTTP traffic, causing health checks to fa
 
 ---
 
+# ✅ Final Deployment Status
+
+The web application is successfully deployed and accessible through the Application Load Balancer DNS.
+
+After resolving Auto Scaling and health check issues:
+
+- All EC2 instances are running and healthy
+- Target Group status shows Healthy
+- Auto Scaling maintains desired capacity
+- Application Load Balancer serves traffic successfully
+- Website loads correctly in browser via Public IP.
+
+**Website Working in Browser:**
+
+<img width="1860" height="948" alt="8-final-web-site-page1" src="https://github.com/user-attachments/assets/4d500a66-7420-4435-b3ae-01fdc1c9d917" />
+
+
+---
+
 ## 👨‍💻 Author ##
 
 Ashok Kumar
@@ -248,3 +267,4 @@ Ashok Kumar
 Cloud & AWS Enthusiast
 
 Hands-on learner building production-style cloud projects
+
