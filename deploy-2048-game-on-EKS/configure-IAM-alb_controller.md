@@ -1,5 +1,12 @@
 # Setup alb add on
 
+## configure IAM OIDC provider
+
+```
+eksctl utils associate-iam-oidc-provider --cluster demo-cluster --approve
+
+```
+
 ## Download IAM policy
 
 ```
@@ -57,9 +64,4 @@ Verify that the deployments are running.
 kubectl get deployment -n kube-system aws-load-balancer-controller
 ```
 
-## configure IAM OIDC provider
 
-```
-eksctl utils associate-iam-oidc-provider --cluster demo-cluster --approve
-
-```
