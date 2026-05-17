@@ -45,6 +45,8 @@ User Request → AWS ALB → Kubernetes Ingress → Service → Deployment → A
 ```text
 .
 ├── README.md
-├── commands.md
-├── 2048_full.yaml
+├── create-eks.md
+├── 2048-deploy-ingress.md
+├── configure-IAM-alb_controller.md
 └── screenshots/
+
