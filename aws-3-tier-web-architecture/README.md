@@ -138,18 +138,9 @@ The architecture ensures secure communication between tiers while maintaining sc
 
 ---
 
-## 📈 Key Learnings
-
-- Designing secure network segmentation in AWS
-- Implementing high availability across AZs
-- Configuring Auto Scaling and health checks
-- Troubleshooting package installation in Amazon Linux 2023
-- Validating database connectivity in private architecture
-
----
 
 ## 👨‍💻 Author
 
 **Ashokkumar**  
-Aspiring Cloud Engineer | AWS Enthusiast  
+DevOps Engineer
 
