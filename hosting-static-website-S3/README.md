@@ -59,15 +59,6 @@ https://first-static-website-hosting-bucket1.s3.ap-south-1.amazonaws.com/index.h
 
 ---
 
-## 🧠 Key Learnings
-
-- Understanding Amazon S3 bucket configuration
-- Managing public access settings
-- Writing S3 bucket policies
-- Basics of IAM user management
-- Hosting static websites in AWS Cloud
-
----
 
 ## 🔐 Security Note
 
@@ -79,4 +70,4 @@ In production environments, least-privilege IAM policies should be followed.
 ## 👨‍💻 Author
 
 Ashokkumar  
-Aspiring AWS Cloud Engineer
+DevOps Engineer
