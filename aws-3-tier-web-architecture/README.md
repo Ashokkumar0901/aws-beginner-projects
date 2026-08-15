@@ -21,12 +21,6 @@ The architecture ensures secure communication between tiers while maintaining sc
 
 ---
 
-## 🏗 Architecture ##
-
-
-<img width="677" height="519" alt="aws-high-availability-3-tier-architecture" src="https://github.com/user-attachments/assets/5f1e21f9-10f7-4b31-8dba-c23d001a2b48" />
-
----
 
 ### Key Design Principles:
 - High Availability across multiple Availability Zones
@@ -107,40 +101,8 @@ The architecture ensures secure communication between tiers while maintaining sc
 
 - Monitored CPU metrics in CloudWatch
 
----
 
 
-## 📸 Screenshots
-
-**VPC & Subnets:**
-<img width="1851" height="902" alt="1-VPC" src="https://github.com/user-attachments/assets/ddce8f9c-5b11-4712-9573-bd1d69887abd" />
 
 
-**Security Groups:**
-<img width="1852" height="910" alt="2-Security-groups" src="https://github.com/user-attachments/assets/8f441837-1dc9-4a9e-8b38-b087e7bf4af0" />
-
-
-**ALB & Target Group (Healthy instances):**
-<img width="1852" height="913" alt="4-Target-group" src="https://github.com/user-attachments/assets/cebb607e-8c6a-4482-852a-eb857185e829" />
-
-
-**Auto Scaling Group:**
-<img width="1852" height="900" alt="5-Auto-scaling-group" src="https://github.com/user-attachments/assets/afee4c42-e4a0-463d-8852-f88bc6496916" />
-
-
-**RDS:**
-<img width="1848" height="903" alt="6-RDS-database" src="https://github.com/user-attachments/assets/b8cf51b7-8ba2-4eae-b552-e0bdda5d11f1" />
-
-
-**Browser output via ALB DNS:**
-<img width="1842" height="957" alt="Final-web-page" src="https://github.com/user-attachments/assets/7596af3e-bf56-4efa-80ba-014246f119d2" />
-
-
----
-
-
-## 👨‍💻 Author
-
-**Ashokkumar**  
-DevOps Engineer
 
