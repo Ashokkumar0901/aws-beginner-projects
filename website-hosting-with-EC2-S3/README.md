@@ -66,7 +66,6 @@ A production-style custom VPC was created.
 
 - Route tables configured
 
-  <img width="1842" height="902" alt="7-vpc-architecture" src="https://github.com/user-attachments/assets/d7c84c35-ac93-4bcd-a809-a6375e18e1c8" />
 
 
 **Purpose:**
@@ -179,9 +178,3 @@ IAM role attached to EC2 instances with:
 
 Followed Principle of Least Privilege.
 
-
----
-
-**Website Working in Browser:**
-
-<img width="1860" height="948" alt="8-final-web-site-page1" src="https://github.com/user-attachments/assets/4d500a66-7420-4435-b3ae-01fdc1c9d917" />
