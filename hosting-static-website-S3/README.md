@@ -33,41 +33,5 @@ User → Amazon S3 (Static Website Hosting Enabled)
 
 ---
 
-## 📸 Screenshots
-
-### 1️⃣ S3 Bucket Created
-<img width="1855" height="795" alt="1  bucket lists" src="https://github.com/user-attachments/assets/4020c31e-4fcc-42b2-a086-fb21595248b5" />
 
 
-### 2️⃣ Static Website Hosting Enabled
-<img width="1807" height="847" alt="3  Static website hosting enabled" src="https://github.com/user-attachments/assets/6ffc4a68-4130-4330-a30f-e7262575c925" />
-
-
-### 3️⃣ Bucket Policy Added
-<img width="1841" height="858" alt="2  bucket policy" src="https://github.com/user-attachments/assets/ecebbe22-4c8f-45f1-a9f7-3a6225d5704d" />
-
-
-### 4️⃣ Website Working in Browser
-<img width="1832" height="900" alt="website" src="https://github.com/user-attachments/assets/6a656ba6-fb91-4bdf-8f25-50da693e40fd" />
-
-
----
-
-## 🔗 Live Website URL
-https://first-static-website-hosting-bucket1.s3.ap-south-1.amazonaws.com/index.html
-
-
----
-
-
-## 🔐 Security Note
-
-This project was implemented using an IAM Admin user for learning purposes.
-In production environments, least-privilege IAM policies should be followed.
-
----
-
-## 👨‍💻 Author
-
-Ashokkumar  
-DevOps Engineer
