@@ -100,7 +100,6 @@ sudo systemctl start httpd
 sudo systemctl enable httpd
 ```
 
-![Sample Web Page](screen-shots/ec2-user-data-index.html)
 
 **Purpose:**
 
@@ -180,87 +179,9 @@ IAM role attached to EC2 instances with:
 
 Followed Principle of Least Privilege.
 
----
-
-## 🔹Issue Faced, Resolution & Observed Behavior ##
-
-## 🔄 Auto Scaling Behavior ##
-
-When manually stopping an EC2 instance inside the Auto Scaling Group:
-
-- The stopped instance was terminated
-
-- Desired capacity was maintained
-
-- A new EC2 instance was launched automatically
-
-  <img width="1848" height="906" alt="1-EC2-running" src="https://github.com/user-attachments/assets/a0520a62-5b7c-4802-b027-11b93aec9ee7" />
-
-
-**Why This Happens?**
-
-Auto Scaling continuously ensures the configured desired capacity.
-
-Stopped or unhealthy instances are automatically replaced.
-
-**To stop all instances safely:**
-
-Edit Auto Scaling Group
-
-Set:
-
-- Minimum = 0
-
-- Desired = 0
-
-- Save changes
 
 ---
-
-## ALB returned 502 Bad Gateway ##
-
-ALB returned 502 Bad Gateway, while EC2 Public IP worked.
-
-**🔍 Root Cause:**
-
-Auto Scaling instances were launched without Apache installation because the Launch Template lacked User Data configuration.
-
-Instances were running but not serving HTTP traffic, causing health checks to fail.
-
-**✅ Solution:**
-
-- Updated Launch Template with proper User Data script
-
-- Installed Apache automatically during boot
-
-- Performed Instance Refresh
-
-- Target Group turned Healthy
-
-- ALB started serving traffic successfully
-
----
-
-# ✅ Final Deployment Status
-
-The web application is successfully deployed and accessible through the Application Load Balancer DNS.
-
-After resolving Auto Scaling and health check issues:
-
-- All EC2 instances are running and healthy
-- Target Group status shows Healthy
-- Auto Scaling maintains desired capacity
-- Application Load Balancer serves traffic successfully
-- Website loads correctly in browser via Public IP.
 
 **Website Working in Browser:**
 
 <img width="1860" height="948" alt="8-final-web-site-page1" src="https://github.com/user-attachments/assets/4d500a66-7420-4435-b3ae-01fdc1c9d917" />
-
-
----
-
-## 👨‍💻 Author ##
-
-Ashokkumar
-DevOps Engineer
